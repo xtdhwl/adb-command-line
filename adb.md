@@ -1,10 +1,10 @@
-```javascript
-Android Debug Bridge version 1.0.36
-Revision 0e9850346394-android
-
- -a                            - directs adb to listen on all interfaces for a connection
- -d                            - directs command to the only connected USB device
-                                 returns an error if more than one USB device is present.
+>
+>Android Debug Bridge version 1.0.36
+>Revision 0e9850346394-android
+>
+> -a                            - directs adb to listen on all interfaces for a connection
+> -d                            - directs command to the only connected USB device
+>                                 returns an error if more than one USB device is present.
  -e                            - directs command to the only running emulator.
                                  returns an error if more than one emulator is running.
  -s <specific device>          - directs command to the device or emulator with the given
@@ -172,3 +172,4 @@ environment variables:
                                  1 or all, adb, sockets, packets, rwx, usb, sync, sysdeps, transport, jdwp
   ANDROID_SERIAL               - The serial number to connect to. -s takes priority over this if given.
   ANDROID_LOG_TAGS             - When used with the logcat option, only these debug tags are printed.
+`
